@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leave Form</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+            <h2>Leave Application Form</h2>
+            <form action="">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" placeholder="Enter Full Name" required>
+
+                <label for="roll">Roll Number</label>
+                <input type="text" id="roll" placeholder="Enter Roll Number" required>
+
+                <label for="phone">Phone Number</label>
+                <input type="text" id="phone" placeholder="Enter Phone Number" required>
+
+                <label for="email">Official Mail ID</label>
+                <input type="email" id="email" placeholder="Enter Official Mail ID" required>
+
+                <label for="leave-date">Leaving Date</label>
+                <input type="date" id="leave-date" required>
+
+                <label for="return-date">Coming Date</label>
+                <input type="date" id="return-date" required>
+
+                <label for="proctor">Proctor Name</label>
+                <input list="select" id="proctor" placeholder="Select Proctor" required>
+                <datalist id="select">
+                    <option value="Sir ABC">
+                    <option value="Sir DEF">
+                    <option value="Sir HIJ">
+                    <option value="Sir KLM">
+                    <option value="Sir NOP">
+                </datalist>
+
+                <label for="hod">HOD</label>
+                <input list="select1" id="hod" placeholder="Select HOD" required>
+                <datalist id="select1">
+                    <option value="Sir XYZ">
+                    <option value="Sir DEF">
+                    <option value="Sir HIJ">
+                    <option value="Sir KLM">
+                    <option value="Sir NOP">
+                </datalist>
+
+                <label for="teacher">Class Teacher</label>
+                <input list="select2" id="teacher" placeholder="Select Class Teacher" required>
+                <datalist id="select2">
+                    <option value="Sir IJK">
+                    <option value="Sir DEF">
+                    <option value="Sir HIJ">
+                    <option value="Sir KLM">
+                    <option value="Sir NOP">
+                </datalist>
+
+                <label for="reason">Reason</label>
+                <textarea id="reason" placeholder="Enter Reason" required></textarea>
+
+               <center> <input type="submit" value="Submit" id="submit"> </center>
+            </form>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>

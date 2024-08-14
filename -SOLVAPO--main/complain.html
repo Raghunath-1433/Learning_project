@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complaint Form</title>
+    <link rel="stylesheet" href="complain.css"> 
+</head>
+
+<body>
+    <div class="container">
+        <div class="form">
+           <center> <h2>Complaint Form</h2></center>
+            <form>
+                <label for="fullname">Full name:</label>
+                <input type="text" id="fullname" placeholder="Enter your full name" required>
+
+                <label for="phone">Phone number:</label>
+                <input type="text" id="phone" placeholder="Enter mobile number" required>
+
+                <label for="hostel">Hostel:</label>
+                <input type="text" id="hostel" placeholder="Hostel name" required>
+
+                <label for="roomno">Room number:</label>
+                <input type="text" id="roomno" placeholder="Enter room number" required>
+
+                <label for="incharge">Hostel incharge:</label>
+                <input type="text" id="incharge" placeholder="Enter name" required>
+
+                <label>Problem:</label>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="electrical">
+                    <label for="electrical">Electrical</label>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="toilet">
+                    <label for="toilet">Toilet</label>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="other">
+                    <label for="other">Other</label>
+                </div>
+
+                <label for="issue">Issue:</label>
+                <textarea id="issue" placeholder="Write your problem here..." rows="4" required></textarea>
+
+                <center><button type="submit" class="sub">Submit</button></center>
+            </form>
+        </div>
+    </div>
+
+    <script src="complain.js"></script> 
+</body>
+
+</html>

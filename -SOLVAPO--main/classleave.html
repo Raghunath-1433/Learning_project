@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leave Form</title>
+    <link rel="stylesheet" href="classleave.css">
+</head>
+<body>
+    <div class="form">
+        <h2>LEAVE FORM</h2>
+        <form action="">
+            <label>FULL NAME</label>
+            <input type="text" placeholder="Enter Full Name" required>
+            <br>
+            <label>ROLL NUMBER</label>
+            <input type="text" placeholder="Enter Roll Number" required>
+            <br>
+            <label>PH. NUMBER</label>
+            <input type="text" placeholder="Enter Phone Number" required>
+            <br>
+            <label>OFFICIAL MAIL ID</label>
+            <input type="email" placeholder="Enter Mail ID" required>
+            <br>
+            <label>SUBJECT</label>
+            <input type="text" placeholder="Enter Subject" required>
+            <br>
+            <label>SUBJECT TEACHER</label>
+            <input type="text" placeholder="Enter Teacher's Name" required>
+            <br>
+            <label>PROCTOR NAME</label>
+            <input list="select">
+            <datalist id="select">
+                <option value="Sir ABC">
+                <option value="Sir DEF">
+                <option value="Sir HIJ">
+                <option value="Sir KLM">
+                <option value="Sir NOP">
+            </datalist>
+            <br>
+            <label>HOD</label>
+            <input list="select1">
+            <datalist id="select1">
+                <option value="Sir XYZ">
+                <option value="Sir DEF">
+                <option value="Sir HIJ">
+                <option value="Sir KLM">
+                <option value="Sir NOP">
+            </datalist>
+            <br>
+            <label>CLASS TEACHER</label>
+            <input list="select2">
+            <datalist id="select2">
+                <option value="Sir IJK">
+                <option value="Sir DEF">
+                <option value="Sir HIJ">
+                <option value="Sir KLM">
+                <option value="Sir NOP">
+            </datalist>
+            <br>
+            <label>DATE</label>
+            <input type="date" required>
+            <label>REASON</label>
+            <input type="text" placeholder="Enter Reason" required>
+            <br>
+            <center>
+                <input type="submit" value="Confirm" id="submit">
+            </center>
+        </form>
+    </div>
+    <script src="classleave.js"></script>
+</body>
+</html>
